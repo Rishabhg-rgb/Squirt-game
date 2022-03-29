@@ -4,7 +4,7 @@ import postionContext from "./PositionContext";
 import React from 'react'
 
 const PostionsGame = (props) => {
-  let state = "grds"
+  
   const [positions, setPostions] = useState([])
   const [loading, setLoading] = useState(false)
   let list = ["69", "cockscrew", "Face Off", "Doggy style", "Pretzel Dip", "Flatiron", "G-Whiz", "Cowgirl", "Wheelbarrow", "leap frog", "magic mountain", "Reverse cowgirl", "cowboy", "ballet dance", "missionary", "Crossbooty", "The Caboose", "Scoop me up", "Reverse scoop me up", "Golden Arch", "The Seashell", "The Chairman", "The pinball Wizard", "Spork", "Table Top", "The om", "Upstanding citizen", "the lazy man", "The snake"]
